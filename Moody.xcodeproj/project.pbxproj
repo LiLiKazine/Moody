@@ -9,21 +9,52 @@
 /* Begin PBXBuildFile section */
 		6C6C6F872574D70100AA286A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6C6F862574D70100AA286A /* AppDelegate.swift */; };
 		6C6C6F892574D70100AA286A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6C6F882574D70100AA286A /* SceneDelegate.swift */; };
-		6C6C6F8B2574D70100AA286A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6C6F8A2574D70100AA286A /* ViewController.swift */; };
 		6C6C6F8E2574D70100AA286A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C6C6F8C2574D70100AA286A /* Main.storyboard */; };
 		6C6C6F902574D70100AA286A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C6C6F8F2574D70100AA286A /* Assets.xcassets */; };
 		6C6C6F932574D70100AA286A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C6C6F912574D70100AA286A /* LaunchScreen.storyboard */; };
+		6C6C6F9C2574D79200AA286A /* MoodsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6C6F9B2574D79200AA286A /* MoodsTableViewController.swift */; };
+		6C6C6FAF2574DD7900AA286A /* Moody.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6C6C6FAD2574DD7900AA286A /* Moody.xcdatamodeld */; };
+		6C6C6FBE2574DEA500AA286A /* Mood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6C6FBD2574DEA500AA286A /* Mood.swift */; };
+		6C6C6FC12574DF3E00AA286A /* StoreHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6C6FC02574DF3E00AA286A /* StoreHelper.swift */; };
+		6C6C6FC42574E0BA00AA286A /* AppStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6C6FC32574E0BA00AA286A /* AppStorage.swift */; };
+		6C8FB2642574F46E00274685 /* NSfetchRequestResult+Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8FB2632574F46E00274685 /* NSfetchRequestResult+Protocol.swift */; };
+		6C8FB2CA25750CB300274685 /* TableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8FB2C925750CB300274685 /* TableViewDataSource.swift */; };
+		6C8FB2CD257512F900274685 /* MoodCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8FB2CC257512F900274685 /* MoodCell.swift */; };
+		6C8FB4C325761CF000274685 /* NSManagedObjectContext+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8FB4C225761CF000274685 /* NSManagedObjectContext+Extension.swift */; };
+		6C8FB4E22576239600274685 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8FB4E12576239600274685 /* Extensions.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6C8FB4DB257622C000274685 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		6C6C6F832574D70100AA286A /* Moody.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moody.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C6C6F862574D70100AA286A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6C6C6F882574D70100AA286A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6C6C6F8A2574D70100AA286A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6C6C6F8D2574D70100AA286A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6C6C6F8F2574D70100AA286A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6C6C6F922574D70100AA286A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6C6C6F942574D70100AA286A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C6C6F9B2574D79200AA286A /* MoodsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodsTableViewController.swift; sourceTree = "<group>"; };
+		6C6C6FAE2574DD7900AA286A /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		6C6C6FBD2574DEA500AA286A /* Mood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mood.swift; sourceTree = "<group>"; };
+		6C6C6FC02574DF3E00AA286A /* StoreHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreHelper.swift; sourceTree = "<group>"; };
+		6C6C6FC32574E0BA00AA286A /* AppStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorage.swift; sourceTree = "<group>"; };
+		6C8FB2632574F46E00274685 /* NSfetchRequestResult+Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSfetchRequestResult+Protocol.swift"; sourceTree = "<group>"; };
+		6C8FB2C925750CB300274685 /* TableViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewDataSource.swift; sourceTree = "<group>"; };
+		6C8FB2CC257512F900274685 /* MoodCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodCell.swift; sourceTree = "<group>"; };
+		6C8FB4C225761CF000274685 /* NSManagedObjectContext+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSManagedObjectContext+Extension.swift"; sourceTree = "<group>"; };
+		6C8FB4E12576239600274685 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +73,7 @@
 			children = (
 				6C6C6F852574D70100AA286A /* Moody */,
 				6C6C6F842574D70100AA286A /* Products */,
+				6C8FB4D8257622BF00274685 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +88,71 @@
 		6C6C6F852574D70100AA286A /* Moody */ = {
 			isa = PBXGroup;
 			children = (
-				6C6C6F862574D70100AA286A /* AppDelegate.swift */,
-				6C6C6F882574D70100AA286A /* SceneDelegate.swift */,
-				6C6C6F8A2574D70100AA286A /* ViewController.swift */,
+				6C6C6FA22574D87600AA286A /* Store */,
+				6C6C6FA02574D7F400AA286A /* App */,
+				6C6C6F9F2574D7CD00AA286A /* Supports */,
 				6C6C6F8C2574D70100AA286A /* Main.storyboard */,
-				6C6C6F8F2574D70100AA286A /* Assets.xcassets */,
-				6C6C6F912574D70100AA286A /* LaunchScreen.storyboard */,
-				6C6C6F942574D70100AA286A /* Info.plist */,
+				6C6C6F9B2574D79200AA286A /* MoodsTableViewController.swift */,
+				6C8FB2C925750CB300274685 /* TableViewDataSource.swift */,
+				6C8FB2CC257512F900274685 /* MoodCell.swift */,
+				6C8FB4E12576239600274685 /* Extensions.swift */,
 			);
 			path = Moody;
+			sourceTree = "<group>";
+		};
+		6C6C6F9F2574D7CD00AA286A /* Supports */ = {
+			isa = PBXGroup;
+			children = (
+				6C6C6F8F2574D70100AA286A /* Assets.xcassets */,
+				6C6C6F942574D70100AA286A /* Info.plist */,
+			);
+			path = Supports;
+			sourceTree = "<group>";
+		};
+		6C6C6FA02574D7F400AA286A /* App */ = {
+			isa = PBXGroup;
+			children = (
+				6C6C6F862574D70100AA286A /* AppDelegate.swift */,
+				6C6C6F882574D70100AA286A /* SceneDelegate.swift */,
+				6C6C6F912574D70100AA286A /* LaunchScreen.storyboard */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		6C6C6FA22574D87600AA286A /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				6C8FB2622574F43A00274685 /* Protocols */,
+				6C6C6FA72574DC2200AA286A /* Entities */,
+				6C6C6FAD2574DD7900AA286A /* Moody.xcdatamodeld */,
+				6C6C6FC02574DF3E00AA286A /* StoreHelper.swift */,
+				6C6C6FC32574E0BA00AA286A /* AppStorage.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		6C6C6FA72574DC2200AA286A /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				6C6C6FBD2574DEA500AA286A /* Mood.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		6C8FB2622574F43A00274685 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				6C8FB2632574F46E00274685 /* NSfetchRequestResult+Protocol.swift */,
+				6C8FB4C225761CF000274685 /* NSManagedObjectContext+Extension.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		6C8FB4D8257622BF00274685 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,6 +165,7 @@
 				6C6C6F7F2574D70100AA286A /* Sources */,
 				6C6C6F802574D70100AA286A /* Frameworks */,
 				6C6C6F812574D70100AA286A /* Resources */,
+				6C8FB4DB257622C000274685 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -137,9 +226,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C6C6F8B2574D70100AA286A /* ViewController.swift in Sources */,
+				6C8FB2CD257512F900274685 /* MoodCell.swift in Sources */,
+				6C8FB2CA25750CB300274685 /* TableViewDataSource.swift in Sources */,
+				6C6C6FBE2574DEA500AA286A /* Mood.swift in Sources */,
 				6C6C6F872574D70100AA286A /* AppDelegate.swift in Sources */,
+				6C6C6F9C2574D79200AA286A /* MoodsTableViewController.swift in Sources */,
+				6C6C6FC42574E0BA00AA286A /* AppStorage.swift in Sources */,
+				6C8FB4C325761CF000274685 /* NSManagedObjectContext+Extension.swift in Sources */,
+				6C8FB4E22576239600274685 /* Extensions.swift in Sources */,
+				6C6C6FC12574DF3E00AA286A /* StoreHelper.swift in Sources */,
 				6C6C6F892574D70100AA286A /* SceneDelegate.swift in Sources */,
+				6C8FB2642574F46E00274685 /* NSfetchRequestResult+Protocol.swift in Sources */,
+				6C6C6FAF2574DD7900AA286A /* Moody.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,7 +386,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PJBUF7JSHK;
-				INFOPLIST_FILE = Moody/Info.plist;
+				INFOPLIST_FILE = Moody/Supports/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,7 +405,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PJBUF7JSHK;
-				INFOPLIST_FILE = Moody/Info.plist;
+				INFOPLIST_FILE = Moody/Supports/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -341,6 +439,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6C6C6FAD2574DD7900AA286A /* Moody.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6C6C6FAE2574DD7900AA286A /* Model.xcdatamodel */,
+			);
+			currentVersion = 6C6C6FAE2574DD7900AA286A /* Model.xcdatamodel */;
+			path = Moody.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 6C6C6F7B2574D70100AA286A /* Project object */;
 }
